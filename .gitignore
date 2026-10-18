@@ -1,0 +1,49 @@
+.venv/
+.env
+.env.*
+!.env.example
+.tmp/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+*.py[cod]
+
+# Large/generated project assets
+kaggle_3m/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Dataset archives and medical images must not be committed
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tif
+*.tiff
+*.dcm
+*.nii
+*.nii.gz
+
+# Streamlit secrets and local state
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test/coverage/build output
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.log
+build/
+dist/
+*.egg-info/
